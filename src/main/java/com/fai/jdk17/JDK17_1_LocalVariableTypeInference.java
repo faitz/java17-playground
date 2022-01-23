@@ -17,6 +17,7 @@ public class JDK17_1_LocalVariableTypeInference {
 
 
    public void varAfter() {
+        List<JDK17_2_Records.Customer> custs = new ArrayList<>();
 
        var customers = new ArrayList<Customer>();
 

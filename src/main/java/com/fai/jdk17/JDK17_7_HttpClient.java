@@ -15,9 +15,9 @@ public class JDK17_7_HttpClient {
 
     public static void main(String[] args) throws Exception {
 
-        Stream.of(1,2,3,4,5,6,7,8)
-                .filter(i -> i % 2 == 0)
-                .collect(Collectors.toList());
+//        Stream.of(1,2,3,4,5,6,7,8)
+//                .filter(i -> i % 2 == 0)
+//                .collect(Collectors.toList());
 
 //        java8way();
 
